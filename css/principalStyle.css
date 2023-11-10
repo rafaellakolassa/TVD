@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Revolver";
+    src: url(../fontExterna/RevolverBlackletter-Regular.otf);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0 url(../imagens/TVD.jpg) fixed center/cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 20px;
+}
+
+h3 {
+    font-family: "Revolver", sans-serif;
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;    
+}
+
+.formPersona {
+    padding: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    font-weight: bold;
+    backdrop-filter: blur(2px) saturate(180%);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    top: 10%;
+    left: 10%;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.input-box input {
+    color: black;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+}
+
+#btns {
+    color: white;
+    background-color: #69111b;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#btns:hover {
+    background-color: #a88d8c;
+    color: #5f425f;
+}
+
+.small {
+    font-size: 12px;
+    color: #070707;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+#formPersona h3 {
+    font-size: 70px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#escopo {
+    background-image: url(./imagens/TVD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
